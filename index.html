@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--header starts here-->
+    <header class="p-3 bg-light text-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <img src="images/logo-dark.png" alt="" width="185px" height="55px"/>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li><a href="#" class="nav-link px-2 text-dark">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-dark">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-dark">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-dark">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-dark">About</a></li>
+          </ul>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light bg-dark me-2">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header ends here-->
+    
+    <!--top area start here-->
+    <section>
+      <div class="card bg-dark text-white">
+        <img
+          src="images/bg.jpg"
+          class="card-img"
+          alt="..."
+          style="max-height: 340px"
+        />
+        <div class="card-img-overlay d-flex align-items-center">
+          <h1 class="card-title m-auto">Contact Us</h1>
+        </div>
+      </div>
+    </section>
+    <!--top area ends here-->
+    <!---middle area start here-->
+    <section>
+      <div class="upper-container">
+        <h1>Any Query..? Write us</h1>
+        <p>
+          We're here to help and answer any question you might have. We look
+          forward to hearing from you.
+        </p>
+      </div>
+      <!--Contact Container-->
+      <div class="contact-container mb-4">
+        <!--Form-->
+        <div class="form-container">
+          <form action="" class="contact-form" id="form">
+            <div class="form-grp">
+              <input type="text" id="name" placeholder="Your Name" />
+              <span id="err-name" class="error-text"></span>
+            </div>
+            <div class="form-grp">
+              <input type="text" name="" id="email" placeholder="Your Email" />
+              <span id="err-email" class="error-text"></span>
+            </div>
+            <div class="form-grp">
+              <input type="tel" id="number" placeholder="Phone Number" />
+              <span id="err-num" class="error-text"></span>
+            </div>
+            <div class="form-grp">
+              <input type="text" id="subject" placeholder="Your Subject" />
+              <span id="err-sub" class="error-text"></span>
+            </div>
+            <div class="form-grp">
+              <textarea
+                name=""
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+              <span id="err-msg" class="error-text"></span>
+            </div>
+            <button type="submit" value="send" class="button" id="button">
+              Submit
+            </button>
+          </form>
+        </div>
+        <!--Map-->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1778.8247859536086!2d75.8036517!3d26.9146144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db6a9fbd5534f%3A0x776803fe8fa7422c!2sKJ%20City%20Tower!5e0!3m2!1sen!2sin!4v1697479705075!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--middle area ends here-->
+
+    <!--footer start here-->
+    <footer class="py-3 bg-dark">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">About</a>
+        </li>
+      </ul>
+      <p class="text-center text-white">© 2022 Company, Inc</p>
+    </footer>
+    <!--footer end here-->
+
+    <!--script-->
+    <script src="js/validation.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--scripts-->
+  </body>
+</html>
